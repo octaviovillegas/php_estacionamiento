@@ -5,7 +5,7 @@
 	$usuarioIngresado = $_GET['inputEmail'];
 	$claveIngresada = $_GET['inputPassword'];
 	setcookie("algo","datos cargados");
-	include 'AccesoDatos.php';
+
 	$objetoAccesoDato = AccesoDatos::dameUnObjetoAcceso(); 
 	$consulta =$objetoAccesoDato->RetornarConsulta("select * from usuario");
 	$consulta->execute();			
