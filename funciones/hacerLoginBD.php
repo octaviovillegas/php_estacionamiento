@@ -12,7 +12,7 @@
 	$datos= $consulta->fetchAll(PDO::FETCH_ASSOC);		
 	foreach ($datos as $usuario ) {
 		var_dump($usuario);
-		if($usuario["nombre"]==$usuarioIngresado)
+		/*if($usuario["nombre"]==$usuarioIngresado)
 		{
 			if($usuario["clave"]==$claveIngresada)
 			{
@@ -21,8 +21,8 @@
 				$_SESSION['perfil']=$usuario["perfil"];
 				setcookie("usuario", $_SESSION['usuario']);
 			}
-		}
-		# code...
+		}*/
+
 	}
 	//header("Location: ../paginas/login.php");
 ?>
