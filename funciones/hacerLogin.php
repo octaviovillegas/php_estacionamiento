@@ -1,3 +1,5 @@
+<h1>bienvenido</h1>
+
 <?php
 	session_start();
 echo "bienvenido";
