@@ -1,6 +1,6 @@
 <?php
 	session_start();
-
+echo "bienvenido";
 	$usuarioIngresado = $_GET['inputEmail'];
 	$claveIngresada = $_GET['inputPassword'];
 	
