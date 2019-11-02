@@ -27,7 +27,7 @@
 					fclose($archivo);
 					$_SESSION['usuario']=$objeto->usuario;
 					$_SESSION['perfil']=$objeto->perfil;
-
+					setcookie("usuario", $_SESSION['usuario'], expires_or_options, path, domain, secure, httponly)
 					header("Location: ../paginas/login.php?exito=signup");
 					exit();
 				}			
