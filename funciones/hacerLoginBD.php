@@ -1,6 +1,5 @@
-
-
 <?php
+	session_start();
 	include 'AccesoDatos.php';
 
 	$usuarioIngresado = $_GET['inputEmail'];
@@ -25,5 +24,5 @@
 		}
 		# code...
 	}
-	header("Location: ../paginas/login.php");
+	//header("Location: ../paginas/login.php");
 ?>
