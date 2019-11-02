@@ -17,12 +17,12 @@
 			if($usuario["clave"]==$claveIngresada)
 			{
 
-				$_SESSION['usuario']=$objeto->usuario;
-				$_SESSION['perfil']=$objeto->perfil;
+				$_SESSION['usuario']=$usuario["nombre"];
+				$_SESSION['perfil']=$usuario["perfil"];
 				setcookie("usuario", $_SESSION['usuario']);
 			}
 		}
 		# code...
 	}
-
+	header("Location: ../paginas/login.php");
 ?>
