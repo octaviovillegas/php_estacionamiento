@@ -51,7 +51,7 @@ session_start();
               {
             ?>
 
-                              <form class="form-signin" action="../funciones/hacerLogin.php">
+                              <form class="form-signin" action="../funciones/hacerLoginBD.php">
                               
                               <h1 class="h3 mb-3 font-weight-normal">Ingrese sus datos</h1>
                               <label for="inputEmail" class="sr-only">USuario</label>
