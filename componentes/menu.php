@@ -21,10 +21,10 @@
               <a class="nav-link" href="../paginas/login.php">Login</a>
             </li>
              <li class="nav-item ">
-              <a class="nav-link" href="/funciones/no.php">funciones 1</a>
+              <a class="nav-link" href="/paginas/no.php">funciones 1</a>
             </li>
              <li class="nav-item ">
-              <a class="nav-link" href="../funciones/ok.php">funciones 2</a>
+              <a class="nav-link" href="../paginas/ok.php">funciones 2</a>
             </li>
             <?php 
             }
