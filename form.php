@@ -12,8 +12,8 @@
 
     
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
     <style>
       .bd-placeholder-img {
@@ -29,6 +29,22 @@
           font-size: 3.5rem;
         }
       }
+
+      .container {
+    max-width: 600px;
+    padding: 60px;
+    -webkit-box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+}
+
+.formulario div[class^="col-md-"] {
+    height: 90px;
+}
+
+.invalid {
+    color: red;
+}
     </style>
 
     
